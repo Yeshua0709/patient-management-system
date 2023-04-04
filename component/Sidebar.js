@@ -16,7 +16,6 @@ export default function Sidebar(){
             <button onClick={() => setActiveComponent(<Patient />)}> Patients</button>
         </ul>
 
-        {activeComponent}
     </nav>
 
     )
